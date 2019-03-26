@@ -1,5 +1,9 @@
 {
   "name": "demo-deploy",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
