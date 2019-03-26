@@ -1,9 +1,5 @@
 {
   "name": "demo-deploy",
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
-  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -29,7 +25,8 @@
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "typescript": "~3.2.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
@@ -52,5 +49,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+  },
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
   }
 }
